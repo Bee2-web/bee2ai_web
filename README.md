@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bee2 AI - Retail Forecasting & Planning
 
-## Getting Started
+Bee2 AI is a next-generation demand forecasting and inventory planning platform designed for modern retailers. It leverages advanced AI to predict consumer demand, optimize stock levels, and maximize profitability across the entire supply chain.
 
-First, run the development server:
+## 🚀 Features
+
+-   **Demand Forecasting:** SKU/Store level predictions using AI that analyzes thousands of variables including seasonality and local events.
+-   **End-to-End Inventory Planning:** Unified platform for balancing stock from factory to shelf, reducing stock-outs and spoilage.
+-   **Pricing & Promotion:** Dynamic pricing optimization and promotion impact analysis to maximize ROI.
+-   **Seasonal Planning:** Specialized tools for managing seasonal inventory, markdowns, and clearance strategies.
+-   **Multi-Language Support:** Fully internationalized (i18n) supporting **English**, **Turkish**, and **Arabic** (including RTL layout).
+-   **Modern UI/UX:** Built with a focus on aesthetics, featuring smooth animations, responsive design, and intuitive data visualization.
+
+## 🛠️ Tech Stack
+
+-   **Framework:** [Next.js](https://nextjs.org/) (App Router)
+-   **Language:** [TypeScript](https://www.typescriptlang.org/)
+-   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+-   **Internationalization:** [next-intl](https://next-intl-docs.vercel.app/)
+-   **Animations:** [Framer Motion](https://www.framer.com/motion/) & [Lottie](https://lottiefiles.com/)
+-   **Icons:** [Lucide React](https://lucide.dev/)
+
+## 🏁 Getting Started
+
+### Prerequisites
+
+-   Node.js 18.17 or later
+-   npm or yarn
+
+### Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/forecasting-web.git
+    cd forecasting-web
+    ```
+
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3.  Run the development server:
+    ```bash
+    npm run dev
+    ```
+
+4.  Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 📦 Building for Production
+
+To create a production build:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The build artifacts will be stored in the `.next/` directory.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To start the production server:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm start
+```
 
-## Learn More
+## 🌍 Internationalization (i18n)
 
-To learn more about Next.js, take a look at the following resources:
+The application supports multiple locales. Routes are automatically prefixed:
+-   `/en` - English (Default)
+-   `/tr` - Turkish
+-   `/ar` - Arabic
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Translations are managed in the `messages/` directory:
+-   `en.json`
+-   `tr.json`
+-   `ar.json`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝 Contributing
 
-## Deploy on Vercel
+1.  Fork the project
+2.  Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Distributed under the MIT License. See `LICENSE` for more information.

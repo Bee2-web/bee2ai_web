@@ -4,6 +4,9 @@ import * as React from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Globe } from "lucide-react"
 import { cn } from "@/lib/utils"
+// Import from our i18n routing configuration
+import { usePathname, useRouter } from "@/i18n/routing"
+import { useLocale } from "next-intl"
 
 const LANGS = [
   { code: "en", label: "English", flag: "🇺🇸" },
@@ -14,27 +17,30 @@ const LANGS = [
 export type LanguageCode = (typeof LANGS)[number]["code"]
 
 interface LanguagePickerProps {
-  value?: LanguageCode
-  onChange?: (code: LanguageCode) => void
-  showLabel?: boolean
   className?: string
+  showLabel?: boolean
 }
 
-export default function LanguagePicker({ value, onChange, showLabel = false, className }: LanguagePickerProps) {
-  const [internal, setInternal] = React.useState<LanguageCode>(value ?? "en")
-  const [expandedLang, setExpandedLang] = React.useState<LanguageCode | null>("en")
+export default function LanguagePicker({ className, showLabel = false }: LanguagePickerProps) {
+  const router = useRouter()
+  const pathname = usePathname()
+  const locale = useLocale() as LanguageCode
+  
+  // We keep expandedLang for the UI effect
+  const [expandedLang, setExpandedLang] = React.useState<LanguageCode | null>(locale)
 
+  // Sync internal UI state with actual locale
   React.useEffect(() => {
-    if (value && value !== internal) setInternal(value)
-  }, [value, internal])
+    setExpandedLang(locale)
+  }, [locale])
 
   const setLang = (code: LanguageCode) => {
-    setInternal(code)
     setExpandedLang(code)
-    onChange?.(code)
+    // Switch locale using next-intl router
+    router.replace(pathname, { locale: code })
   }
 
-  const activeIndex = LANGS.findIndex((l) => l.code === internal)
+  const activeIndex = LANGS.findIndex((l) => l.code === locale)
 
   const onKeyDown: React.KeyboardEventHandler<HTMLDivElement> = (e) => {
     const max = LANGS.length - 1
@@ -72,6 +78,7 @@ export default function LanguagePicker({ value, onChange, showLabel = false, cla
   const getIndicatorPosition = () => {
     let position = 0
     for (let i = 0; i < activeIndex; i++) {
+        // Use the current loop index language to check width
       const currentWidth = expandedLang === LANGS[i].code ? getButtonWidth(LANGS[i].code) : 40
       position += currentWidth + 4 // 4 matches gap-1 (4px)
     }
@@ -79,7 +86,7 @@ export default function LanguagePicker({ value, onChange, showLabel = false, cla
   }
 
   const getIndicatorWidth = () => {
-    return internal === expandedLang ? getButtonWidth(internal) : 40
+    return locale === expandedLang ? getButtonWidth(locale) : 40
   }
 
   const smoothTransition = {
@@ -123,7 +130,7 @@ export default function LanguagePicker({ value, onChange, showLabel = false, cla
         </motion.div>
 
         {LANGS.map((lang) => {
-          const isActive = lang.code === internal
+          const isActive = lang.code === locale
           const isExpanded = expandedLang === lang.code
           const buttonWidth = getButtonWidth(lang.code)
 
@@ -174,7 +181,7 @@ export default function LanguagePicker({ value, onChange, showLabel = false, cla
       {showLabel && !expandedLang && (
         <div className="ml-3 inline-flex items-center text-gray-500 text-sm">
           <Globe className="mr-1.5 h-4 w-4 opacity-70" />
-          <span className="opacity-80 font-medium">{LANGS.find((l) => l.code === internal)?.label}</span>
+          <span className="opacity-80 font-medium">{LANGS.find((l) => l.code === locale)?.label}</span>
         </div>
       )}
     </div>

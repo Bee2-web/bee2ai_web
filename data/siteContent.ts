@@ -37,27 +37,27 @@ export type NavItem = NavItemWithDropdown | NavItemWithSections | NavItemSimple;
 // Navigation Data
 export const navItems: NavItem[] = [
   {
-    label: 'Home',
+    label: 'home',
     href: '/',
   },
   {
-    label: 'Demand Forecasting',
+    label: 'demandForecasting',
     href: '/solutions/demand-forecasting',
   },
   {
-    label: 'Inventory Planning',
+    label: 'inventoryPlanning',
     href: '/solutions/end-to-end-inventory-planning',
   },
   {
-    label: 'Pricing & Promotion',
+    label: 'pricingPromotion',
     href: '/solutions/pricing-promotion',
   },
   {
-    label: 'Seasonal Planning',
+    label: 'seasonalPlanning',
     href: '/solutions/seasonal-planning',
   },
   {
-    label: 'About Us',
+    label: 'aboutUs',
     href: '/about',
   },
 ];

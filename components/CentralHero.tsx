@@ -1,7 +1,7 @@
 'use client';
 
-import { heroContent } from '@/data/siteContent';
-import Link from 'next/link';
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import Lottie from 'lottie-react';
 import marketingAnimation from '@/public/lotties/marketing.json';
@@ -10,6 +10,8 @@ import dataAnimation from '@/public/lotties/data.json';
 import graphAnimation from '@/public/lotties/graph.json';
 
 export default function CentralHero() {
+  const t = useTranslations('Hero');
+
   return (
     <section className="relative w-full min-h-[90vh] flex flex-col items-center justify-start overflow-hidden bg-white pt-32 pb-20">
       {/* Background Curves - Relex Style */}
@@ -32,27 +34,27 @@ export default function CentralHero() {
         {/* Text Content */}
         <div className="max-w-5xl mx-auto space-y-6 mb-16">
           <h1 className="text-4xl md:text-6xl lg:text-[72px] font-bold text-[#05152F] tracking-tight leading-[1.1]">
-            {heroContent.title}
+            {t('title')}
             <br className="hidden md:block" />
-            <span className="text-[#05152F]">{heroContent.titleSub}</span>
+            <span className="text-[#05152F]">{t('titleSub')}</span>
           </h1>
 
           <p className="max-w-3xl mx-auto text-lg md:text-xl text-[#05152F]/70 leading-relaxed font-medium">
-            {heroContent.description}
+            {t('description')}
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
             <Link
-              href={heroContent.ctaLink}
+              href="/contact"
               className="inline-flex items-center justify-center h-14 px-10 rounded-full bg-[#FDB955] text-[#05152F] font-bold text-lg transition-all hover:scale-105 hover:shadow-xl shadow-lg hover:bg-[#FAB040]"
             >
-              {heroContent.ctaText}
+              {t('ctaText')}
             </Link>
             <Link
-              href={heroContent.secondaryCtaLink}
+              href="/solutions/demand-forecasting"
               className="inline-flex items-center justify-center h-14 px-10 rounded-full bg-white border-2 border-[#05152F]/10 text-[#05152F] font-bold text-lg transition-all hover:scale-105 hover:bg-gray-50 hover:border-[#05152F]/20 shadow-md"
             >
-              {heroContent.secondaryCtaText}
+              {t('secondaryCtaText')}
             </Link>
           </div>
         </div>
@@ -80,25 +82,25 @@ export default function CentralHero() {
           
           {/* Top Left - Dashboard */}
           <div className="absolute top-[10%] left-[5%] md:left-[15%] w-48 md:w-64 bg-white/90 backdrop-blur-sm rounded-xl shadow-lg border border-slate-100 p-2 transform hover:scale-105 transition-transform duration-500 animate-float-slow">
-            <div className="text-xs font-semibold text-slate-500 mb-1 px-2">Retail Analytics</div>
+            <div className="text-xs font-semibold text-slate-500 mb-1 px-2">{t('badges.retailAnalytics')}</div>
             <Lottie animationData={dashboardAnimation} loop={true} />
           </div>
 
           {/* Top Right - Graph */}
           <div className="absolute top-[15%] right-[5%] md:right-[15%] w-40 md:w-56 bg-white/90 backdrop-blur-sm rounded-xl shadow-lg border border-slate-100 p-2 transform hover:scale-105 transition-transform duration-500 animate-float-medium">
-             <div className="text-xs font-semibold text-slate-500 mb-1 px-2">Sales Forecast</div>
+             <div className="text-xs font-semibold text-slate-500 mb-1 px-2">{t('badges.salesForecast')}</div>
             <Lottie animationData={graphAnimation} loop={true} />
           </div>
 
           {/* Bottom Left - Marketing/Data */}
           <div className="absolute bottom-[10%] left-[5%] md:left-[10%] w-56 md:w-72 bg-white/90 backdrop-blur-sm rounded-xl shadow-lg border border-slate-100 p-2 transform hover:scale-105 transition-transform duration-500 animate-float-fast">
-             <div className="text-xs font-semibold text-slate-500 mb-1 px-2">Inventory Optimization</div>
+             <div className="text-xs font-semibold text-slate-500 mb-1 px-2">{t('badges.inventoryOpt')}</div>
             <Lottie animationData={marketingAnimation} loop={true} />
           </div>
 
           {/* Bottom Right - Processing */}
           <div className="absolute bottom-[15%] right-[5%] md:right-[10%] w-48 md:w-64 bg-white/90 backdrop-blur-sm rounded-xl shadow-lg border border-slate-100 p-2 transform hover:scale-105 transition-transform duration-500 animate-float-slow">
-             <div className="text-xs font-semibold text-slate-500 mb-1 px-2">Smart Replenishment</div>
+             <div className="text-xs font-semibold text-slate-500 mb-1 px-2">{t('badges.smartReplenish')}</div>
             <Lottie animationData={dataAnimation} loop={true} />
           </div>
 

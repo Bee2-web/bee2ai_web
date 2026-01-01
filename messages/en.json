@@ -1,0 +1,378 @@
+{
+  "Header": {
+    "home": "Home",
+    "demandForecasting": "Demand Forecasting",
+    "inventoryPlanning": "Inventory Planning",
+    "pricingPromotion": "Pricing & Promotion",
+    "seasonalPlanning": "Seasonal Planning",
+    "aboutUs": "About Us",
+    "getStarted": "Get Started"
+  },
+  "Hero": {
+    "title": "Empowering Businesses with",
+    "titleSub": "Intelligent AI Solutions",
+    "description": "Bee2 AI specializes in AI-based forecasting and smart inventory management for retail and e-commerce. We help you increase revenue and reduce waste by solving stock-out and overstock problems with 99% forecast accuracy and real-time, data-driven insights.",
+    "ctaText": "Get Started",
+    "secondaryCtaText": "Learn More",
+    "badges": {
+      "retailAnalytics": "Retail Analytics",
+      "salesForecast": "Sales Forecast",
+      "inventoryOpt": "Inventory Optimization",
+      "smartReplenish": "Smart Replenishment"
+    }
+  },
+  "Features": {
+    "demandForecasting": {
+      "title": "Demand Forecasting",
+      "description": "Generate highly accurate demand forecasts on a SKU and store basis. Our AI models predict how much and when each product will sell, adapting to daily, weekly, and seasonal trends to ensure availability.",
+      "ctaText": "Explore Forecasting"
+    },
+    "pricingPromotion": {
+      "title": "Pricing & Promotion Forecasting",
+      "description": "Predict the impact of price changes on sales, revenue, and margins. Identify the most profitable discount rates and forecast promotion uplifts to maximize campaign ROI.",
+      "ctaText": "Optimize Pricing"
+    },
+    "inventoryPlanning": {
+      "title": "End-to-End Inventory Planning",
+      "description": "Calculate optimal stock levels to prevent stock-outs and overstocking. Get automated recommendations for reorder timing and quantities to maintain a healthy inventory balance.",
+      "ctaText": "Plan Inventory"
+    },
+    "seasonalPlanning": {
+      "title": "Seasonal Planning",
+      "description": "Pinpoint clearance opportunities and generate optimal pricing for seasonal, promotional, or end-of-lifecycle products. Maximize turnover and margins with AI-driven insights.",
+      "ctaText": "View Seasonal Planning"
+    }
+  },
+  "Home": {
+    "trustedBy": "Trusted by industry leading retailers and manufacturers",
+    "ValueChain": {
+      "title": "Explore how Bee2 AI supports the entire retail value chain",
+      "description": "From demand forecasting to shelf availability, our integrated modules work together to optimize every step."
+    }
+  },
+  "About": {
+    "Hero": {
+      "title": "Plan better. Sell more.",
+      "titleAccent": "Waste less.",
+      "description": "AI-driven forecasting and inventory planning for the modern retail era. We help retailers and manufacturers optimize their supply chain to maximize profitability and sustainability.",
+      "contactUs": "Contact us",
+      "requestDemo": "Request demo",
+      "stats": {
+        "waste": "Waste Reduced",
+        "accuracy": "Forecast Accuracy"
+      }
+    },
+    "Sustainability": {
+      "title": "Bee2 AI boosts sales while promoting environmental sustainability",
+      "description": "Efficiency isn't just about profit. It's about using resources wisely. Our technology ensures you produce and ship exactly what is needed, reducing waste at every step of the value chain.",
+      "inventoryReduction": "Inventory Reduction",
+      "wasteReduction": "Waste Reduction",
+      "forecastAccuracy": "Forecast Accuracy"
+    },
+    "Laptop": {
+      "title": "Credit for predicted efficient inventory",
+      "description": "We give credit where it's due. Our platform identifies efficiency gains and helps you visualize the financial impact of optimized inventory levels.",
+      "features": {
+        "replenishment": "Automated Replenishment",
+        "optimization": "Stock Optimization",
+        "dataDriven": "Data-Driven Decisions"
+      }
+    },
+    "Team": {
+      "title": "Our Team",
+      "description": "Meet the minds behind Bee2 AI. A dedicated team of engineers and data scientists building the future of retail.",
+      "roles": {
+        "founder": "Founder",
+        "fullstack": "Fullstack Developer",
+        "developer": "Software Developer"
+      }
+    },
+    "Origins": {
+      "title": "Origins of the Bee2 name",
+      "p1": "Bees are nature's most efficient organizers. They communicate, collaborate, and optimize their resources with incredible precision.",
+      "p2": "We named our company <strong>Bee2</strong> because we bring that same <strong>swarm intelligence</strong> to retail.",
+      "p3": "Connecting every part of your supply chain to work together in perfect harmony."
+    },
+    "SustainabilityCircle": {
+      "title": "Bee2 Sustainability",
+      "description": "We believe that profitability and sustainability go hand in hand. By optimizing supply chains, we help reduce the global carbon footprint of retail. Fewer trucks, less waste, better planet.",
+      "cta": "Read our sustainability report"
+    },
+    "FooterCTA": {
+      "title": "Ready to transform your supply chain & retail planning?",
+      "description": "Join the leading retailers who trust Bee2 AI to power their decisions.",
+      "contactUs": "Contact Us",
+      "requestDemo": "Request Demo"
+    }
+  },
+  "Contact": {
+    "title": "Get in Touch",
+    "description": "Whether you have questions about our AI platform, need a demo, or want to discuss a partnership, we are here to help.",
+    "emailUs": "Email Us",
+    "emailResponse": "We usually respond within 24 hours.",
+    "phone": "Phone",
+    "office": "Office",
+    "officeAddress": "GEBZE OSB MAH., KEMAL NEHROZOĞLU CADDESİ, DIŞ KAPI NO:507/9 İÇ KAPI NO: Z14\nGEBZE/KOCAELİ\n(Headquarters)",
+    "form": {
+      "title": "Send us a Message",
+      "fullName": "Full Name",
+      "workEmail": "Work Email",
+      "company": "Company",
+      "message": "How can we help?",
+      "placeholders": {
+        "fullName": "John Doe",
+        "workEmail": "john@company.com",
+        "company": "Your Company Inc.",
+        "message": "Tell us about your forecasting challenges..."
+      },
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! We will get back to you soon.",
+      "error": "Failed to send message. Please try again later."
+    }
+  },
+  "Solutions": {
+    "demand-forecasting": {
+      "title": "Demand Forecasting",
+      "subtitle": "Predict Every Sale with 99% Accuracy",
+      "description": "Transform your planning with AI-powered demand forecasting that adapts to market volatility. Our engine analyzes thousands of variables—from seasonality to local events—to predict SKU-level demand with precision.",
+      "features": {
+        "0": "SKU/Store Level Granularity",
+        "1": "Daily, Weekly, and Monthly Forecasts",
+        "2": "Seasonality & Trend Analysis",
+        "3": "New Product Introduction (NPI) Forecasting",
+        "4": "Cannibalization Detection"
+      },
+      "benefits": {
+        "0": { "title": "Reduce Stock-outs", "desc": "Ensure products are available when customers want them, boosting revenue." },
+        "1": { "title": "Minimize Waste", "desc": "Avoid over-ordering perishables or fast-fashion items." },
+        "2": { "title": "Automated Insights", "desc": "Let AI handle the complex calculations so your team can focus on strategy." }
+      }
+    },
+    "inventory-planning": {
+      "title": "End-to-End Inventory Planning",
+      "subtitle": "Balance Stock for Maximum Profitability",
+      "description": "Maintain the perfect inventory levels across your entire supply chain. Our solution calculates safety stocks, reorder points, and transfer recommendations to free up working capital.",
+      "features": {
+        "0": "Automated Replenishment",
+        "1": "Safety Stock Optimization",
+        "2": "Multi-Echelon Inventory Optimization (MEIO)",
+        "3": "ABC/XYZ Segmentation",
+        "4": "Slow-Moving Stock Alerts"
+      },
+      "benefits": {
+        "0": { "title": "Working Capital Efficiency", "desc": "Reduce capital tied up in excess inventory." },
+        "1": { "title": "Higher Service Levels", "desc": "Maintain high availability without bloating your warehouse." },
+        "2": { "title": "Dynamic Responsiveness", "desc": "Automatically adjust to changing lead times and demand spikes." }
+      }
+    },
+    "pricing-promotion": {
+      "title": "Pricing & Promotion Forecasting",
+      "subtitle": "Optimize Margins with Smart Pricing",
+      "description": "Stop guessing what discounts work. Simulate price changes and promotion scenarios to predict their impact on volume, revenue, and gross margin before execution.",
+      "features": {
+        "0": "Price Elasticity Modeling",
+        "1": "Promotion Uplift Prediction",
+        "2": "Markdown Optimization",
+        "3": "Scenario Simulation (What-if Analysis)",
+        "4": "Competitor Price Monitoring"
+      },
+      "benefits": {
+        "0": { "title": "Maximize ROI", "desc": "Run only the promotions that generate real profit." },
+        "1": { "title": "Effective Markdowns", "desc": "Clear inventory at the best possible price point." },
+        "2": { "title": "Strategic Pricing", "desc": "Set prices that align with your brand positioning and margin goals." }
+      }
+    },
+    "seasonal-planning": {
+      "title": "Seasonal Planning",
+      "subtitle": "Maximize Turnover & Margins",
+      "description": "Pinpoint clearance opportunities and generate optimal pricing for seasonal, promotional, or end-of-lifecycle products.",
+      "features": {
+        "0": "Clearance Optimization",
+        "1": "Automated Markdowns",
+        "2": "Seasonal Demand Forecasting",
+        "3": "Inventory Balancing",
+        "4": "Margin Protection"
+      },
+      "benefits": {
+        "0": { "title": "Higher Turnover", "desc": "Move seasonal stock fast before it loses value." },
+        "1": { "title": "Optimized Margins", "desc": "Find the perfect price point to clear stock without giving away margin." },
+        "2": { "title": "Automated Execution", "desc": "Save time with AI-driven price recommendations." }
+      },
+      "hero": {
+        "badge": "Seasonal planning solution",
+        "title": "Pinpoint clearance opportunities for higher turnover and better margins",
+        "description": "Generate optimal pricing for seasonal, promotional, or end-of-lifecycle products. Our AI maximizes revenue while clearing inventory efficiently.",
+        "getStarted": "Get Started",
+        "requestDemo": "Request Demo"
+      },
+      "stats": {
+        "title": "Generate optimal pricing for seasonal, promotional, or end-of-lifecycle products",
+        "accuracy": { "value": "100%", "label": "Clearance Forecast Accuracy" },
+        "reduction": { "value": "44%", "label": "Inventory Reduction" },
+        "timeSaved": { "value": "75%", "label": "Time Saved vs Manual" }
+      },
+      "optimization": {
+        "title": "\"When running out of stock, promote sell-out of lifecycle inventory. Maximize margins and inventory turnover.\"",
+        "description": "AI-driven forecasting ensures you don't discount too early or too late. Align your clearance strategy with actual demand signals to recover maximum value.",
+        "learnMore": "Learn about Clearance Optimization"
+      },
+      "featureHighlight": {
+        "badge": "Key Feature",
+        "title": "Bee2 AI offers AI-driven clearance optimization",
+        "dashboardTitle": "Clearance Dashboard",
+        "automated": { "title": "Automated Price Adjustments", "desc": "System suggests price cuts based on remaining inventory and time left in the season." },
+        "margin": { "title": "Margin Protection", "desc": "Define floor prices to ensure you never sell below cost unless absolutely necessary." },
+        "stock": { "title": "Stock Consolidation", "desc": "Smart recommendations to move remaining stock to stores with higher sell-through rates." }
+      },
+      "grid": {
+        "title": "Proactively identify clearance needs and generate optimal prices",
+        "items": {
+          "0": { "title": "Fast, intuitive set up", "desc": "Easily define rules for seasonal products and promotions. Launch campaigns in minutes, not days." },
+          "1": { "title": "Monitor automatically, respond immediately", "desc": "Real-time tracking of sales velocity. If a product isn't moving, the system alerts you instantly." },
+          "2": { "title": "Avoid markdown too late or too early", "desc": "Timing is everything. Our AI identifies the sweet spot for maximum revenue recovery." },
+          "3": { "title": "Protect margins across channels", "desc": "Coordinate pricing between online and offline channels to prevent channel conflict." },
+          "4": { "title": "Simplify compliance & localized pricing", "desc": "Manage regional price differences and tax rules automatically." },
+          "5": { "title": "AI-driven stock balancing", "desc": "Move stock where it sells best before marking it down." }
+        }
+      },
+      "cta": {
+        "title": "Take control of seasonal planning",
+        "description": "Don't let seasonal inventory become a liability. Turn end-of-season stock into cash with intelligent planning and automated execution.",
+        "button": "Start Optimization"
+      }
+    }
+  },
+  "DemandForecasting": {
+     "hero": {
+      "badge": "AI-Powered Planning",
+      "title": "Accurately <highlight>forecast demand</highlight> for improved planning",
+      "titleHighlight": "forecast demand",
+      "description": "Move beyond simple sales history. Our AI engine analyzes thousands of variables to predict what your customers want, when they want it.",
+      "getStarted": "Get Started",
+      "learnMore": "Learn More",
+      "accuracy": { "value": "99%", "label": "Forecast Accuracy", "status": "Achieved" }
+    },
+    "stats": {
+      "title": "Improve forecast accuracy for tangible results",
+      "accuracy": { "value": "77%", "label": "Increased Forecast Accuracy" },
+      "stockOuts": { "value": "30%", "label": "Reduction in Stock-outs" },
+      "spoilage": { "value": "40%", "label": "Reduction in Spoilage" }
+    },
+    "dashboard": {
+      "title": "Bee2 AI enables granular visibility into consumer demand",
+      "description": "Stop optimizing in siloes. Our unified platform brings together demand sensing, inventory planning, and replenishment into a single source of truth.",
+      "features": {
+        "0": "Daily SKU-store level forecasting",
+        "1": "Event & promotion impact analysis",
+        "2": "Weather & local event correlation"
+      }
+    },
+    "smarterPlanning": {
+      "title": "Smarter demand planning",
+      "subtitle": "Automate routine tasks and let your planners focus on strategy.",
+      "cards": {
+        "pattern": { "title": "Pattern Recognition", "desc": "Automatically identify complex demand patterns, from seasonal spikes to cannibalization effects during promotions." },
+        "probabilistic": { "title": "Probabilistic Forecasting", "desc": "Don't just get a number. Get a probability range to understand risk and make better inventory decisions." },
+        "anomaly": { "title": "Anomaly Detection", "desc": "Our AI flags anomalies in real-time, allowing you to react to supply disruptions or demand surges instantly." }
+      }
+    },
+    "cta": {
+      "title": "Future-proof your supply chain today",
+      "description": "Join leading retailers who have reduced stock-outs by 30% and increased sales with Bee2 AI.",
+      "bookDemo": "Book a Demo",
+      "explore": "Explore Other Solutions"
+    }
+  },
+  "PricingPromotion": {
+    "hero": {
+      "title": "Elevate price precision and optimize pricing strategy",
+      "description": "Unlock the power of data-driven pricing. Our AI helps you define the optimal price point for every product, maximizing margins while keeping customers happy.",
+      "getStarted": "Get Started",
+      "viewVideo": "View Video"
+    },
+    "metrics": {
+      "title": "Streamline pricing processes to maximize sales, profit, or volume",
+      "cards": {
+        "0": { "title": "Increase", "desc": "Profit Margins" },
+        "1": { "title": "Grow", "desc": "Market Share" },
+        "2": { "title": "Improve", "desc": "Price Perception" }
+      }
+    },
+    "precision": {
+      "title": "Bee2 AI creates precise and informed pricing decisions",
+      "description": "Our algorithms analyze historical data, competitor prices, and demand elasticity to recommend the perfect price. Stop guessing and start optimizing with scientific precision."
+    },
+    "pricingImage": {
+      "badge": "Key Feature",
+      "title": "Effortlessly shape the pricing image customers desire",
+      "description": "Maintain your competitive edge without eroding margins. Define your brand's pricing strategy—whether premium, competitive, or discounter—and let AI handle the execution."
+    },
+    "marketLeadership": {
+      "title": "Improve retail pricing to achieve market leadership",
+      "description": "Take control of your category. Respond faster to market changes than your competitors.",
+      "tags": {
+        "base": "Base Price",
+        "promo": "Promotions",
+        "markdowns": "Markdowns"
+      }
+    },
+    "quote": {
+      "text": "\"Add to your team's pricing brilliance\"",
+      "subtext": "Empower your pricing analysts with tools that automate the routine and surface the strategic. Turning data into profitable action has never been easier."
+    },
+    "value": {
+      "badge": "-15%",
+      "title": "The price is right, but at what cost?",
+      "description": "Blindly matching competitors or slashing prices destroys value. Our holistic approach considers costs, demand, and cross-item effects to ensure every price move contributes to your bottom line.",
+      "learnMore": "Learn the True Cost"
+    },
+    "cta": {
+      "title": "See beyond the blind spots generated by machine learning that actually works",
+      "bookDemo": "Book a Demo"
+    }
+  },
+  "InventoryPlanning": {
+    "hero": {
+      "badge": "End-to-End Inventory Planning",
+      "title": "Optimize inventory <highlight>across the entire</highlight> supply chain",
+      "description": "Ensure high availability while minimizing stock-outs and spoilage. Our unified platform balances stock levels from factory to shelf.",
+      "getStarted": "Get Started",
+      "systemOptimized": "System Optimized"
+    },
+    "stats": {
+      "title": "Increase stock availability and turnover",
+      "reduction": { "value": "30%", "label": "Inventory Reduction" },
+      "availability": { "value": "87%", "label": "Availability" },
+      "spoilage": { "value": "85%", "label": "Less Fresh Spoilage" }
+    },
+    "flow": {
+      "title": "Optimize inventory flows across the entire network",
+      "description": "Connect every node in your supply chain. From warehouses to distribution centers to stores, our AI ensures optimal stock levels everywhere.",
+      "list": {
+        "0": "Multi-echelon inventory optimization",
+        "1": "Dynamic safety stock calculations",
+        "2": "Automatic replenishment triggers"
+      }
+    },
+    "dashboard": {
+      "title": "Manage inventory automatically",
+      "features": {
+        "0": { "title": "Replenishment", "desc": "Automate order proposals based on accurate demand forecasts." },
+        "1": { "title": "Allocations", "desc": "Distribute scarcity or push promotions effectively." },
+        "2": { "title": "Transfers", "desc": "Balance stock between stores to prevent aging and stock-outs." }
+      }
+    },
+    "produce": {
+      "label": "Reduce Waste",
+      "title": "The Right Cause of Grocery Food Waste: Confirming Freshness Begins with Better Stores",
+      "description": "Fresh food is difficult. Spoilage is distinct. Minimize waste while maintaining high availability for fresh goods.",
+      "caseStudy": "View Case Study"
+    },
+    "cta": {
+      "title": "Ready to transform your supply chain & retail planning?",
+      "talk": "Let's Talk",
+      "requestDemo": "Request Demo"
+    }
+  }
+}

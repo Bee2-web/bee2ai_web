@@ -30,5 +30,5 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules", "background-paths", "scrolling-logos-carousel", "vercel-tabs", "expandable-tabs-language-selector"]
+  "exclude": ["node_modules"]
 }

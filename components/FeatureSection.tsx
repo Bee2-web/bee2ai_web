@@ -1,13 +1,47 @@
-import Link from 'next/link';
+'use client';
+
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 
-import { featureSections } from '@/data/siteContent';
+const featuresPayload = [
+  {
+    id: 'demandForecasting',
+    ctaLink: '/solutions/demand-forecasting',
+    illustration: '/vectors/feature-1.svg',
+    reverse: false,
+    icon: '📊' 
+  },
+  {
+    id: 'pricingPromotion',
+    ctaLink: '/solutions/pricing-promotion',
+    illustration: '/vectors/feature-2.svg',
+    reverse: true,
+    icon: '🏷️'
+  },
+  {
+    id: 'inventoryPlanning',
+    ctaLink: '/solutions/end-to-end-inventory-planning',
+    illustration: '/vectors/feature-4.svg',
+    reverse: false,
+    icon: '📦'
+  },
+  {
+    id: 'seasonalPlanning',
+    ctaLink: '/solutions/seasonal-planning',
+    illustration: '/vectors/feature-3.svg',
+    reverse: true,
+    icon: '🗓️'
+  }
+];
 
 export default function FeatureSection() {
+  const t = useTranslations('Features');
+
   return (
     <section className='w-full bg-white py-16 md:py-24'>
       <div className='container mx-auto px-4 md:px-6 space-y-24'>
-        {featureSections.map((section, index) => (
+        {featuresPayload.map((section) => (
           <div
             key={section.id}
             className={`flex flex-col gap-12 items-center ${
@@ -16,17 +50,17 @@ export default function FeatureSection() {
           >
             <div className='flex-1 space-y-6'>
               <h2 className='text-3xl md:text-4xl font-bold text-[#05152F] font-sans'>
-                {section.title}
+                {t(`${section.id}.title`)}
               </h2>
               <p className='text-lg text-[#05152F]/80 leading-relaxed font-figtree'>
-                {section.description}
+                {t(`${section.id}.description`)}
               </p>
               <div>
                 <Link
                   href={section.ctaLink}
                   className='inline-flex items-center justify-center rounded-full bg-[#FDB955] px-8 py-3 text-sm font-bold text-[#05152F] transition-all hover:bg-[#e0a844] hover:shadow-md'
                 >
-                  {section.ctaText}
+                  {t(`${section.id}.ctaText`)}
                 </Link>
               </div>
             </div>
@@ -36,12 +70,12 @@ export default function FeatureSection() {
                  {section.illustration ? (
                     <Image 
                       src={section.illustration} 
-                      alt={section.title}
+                      alt={t(`${section.id}.title`)}
                       fill
                       className="object-contain p-8 transform group-hover:scale-105 transition-transform duration-500" 
                     />
                  ) : (
-                    <span className='text-6xl'>{['📊', '📦', '💰', '🏷️', '🗓️'][index % 5]}</span>
+                    <span className='text-6xl'>{section.icon}</span>
                  )}
               </div>
             </div>

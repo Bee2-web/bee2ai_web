@@ -1,0 +1,378 @@
+{
+  "Header": {
+    "home": "Anasayfa",
+    "demandForecasting": "Talep Tahmini",
+    "inventoryPlanning": "Envanter Planlama",
+    "pricingPromotion": "Fiyatlandırma & Promosyon",
+    "seasonalPlanning": "Sezonluk Planlama",
+    "aboutUs": "Hakkımızda",
+    "getStarted": "Başlayın"
+  },
+  "Hero": {
+    "title": "İşletmeleri Güçlendiren",
+    "titleSub": "Akıllı Yapay Zeka Çözümleri",
+    "description": "Bee2 AI, perakende ve e-ticaret için yapay zeka tabanlı tahminleme ve akıllı envanter yönetimi konusunda uzmanlaşmıştır. %99 tahmin doğruluğu ve gerçek zamanlı, veri odaklı içgörülerle stok yetersizliği ve fazlalığı problemlerini çözerek gelirinizi artırmanıza ve israfı azaltmanıza yardımcı oluyoruz.",
+    "ctaText": "Başlayın",
+    "secondaryCtaText": "Daha Fazla Bilgi",
+    "badges": {
+      "retailAnalytics": "Perakende Analitiği",
+      "salesForecast": "Satış Tahmini",
+      "inventoryOpt": "Envanter Optimizasyonu",
+      "smartReplenish": "Akıllı İkmal"
+    }
+  },
+  "Features": {
+    "demandForecasting": {
+      "title": "Talep Tahminleme",
+      "description": "SKU ve mağaza bazında yüksek doğrulukta talep tahminleri oluşturun. Yapay zeka modellerimiz, her ürünün ne zaman ve ne kadar satacağını tahmin eder, günlük, haftalık ve mevsimsel trendlere uyum sağlayarak stok bulunurluğunu garanti eder.",
+      "ctaText": "Tahminlemeyi Keşfet"
+    },
+    "pricingPromotion": {
+      "title": "Fiyatlandırma ve Promosyon Tahmini",
+      "description": "Fiyat değişikliklerinin satış, gelir ve marjlar üzerindeki etkisini tahmin edin. Kampanya ROI'sini maksimize etmek için en karlı indirim oranlarını belirleyin ve promosyon artışlarını öngörün.",
+      "ctaText": "Fiyatlandırmayı Optimize Et"
+    },
+    "inventoryPlanning": {
+      "title": "Uçtan Uca Envanter Planlama",
+      "description": "Stok yetersizliğini ve fazlalığını önlemek için optimal stok seviyelerini hesaplayın. Sağlıklı bir envanter dengesi sürdürmek için yeniden sipariş zamanlaması ve miktarları konusunda otomatik öneriler alın.",
+      "ctaText": "Envanteri Planla"
+    },
+    "seasonalPlanning": {
+      "title": "Sezonluk Planlama",
+      "description": "Sezonluk, promosyonel veya yaşam döngüsü sonundaki ürünler için tasfiye fırsatlarını belirleyin ve optimal fiyatlandırma oluşturun. Yapay zeka destekli içgörülerle ciroyu ve marjları maksimize edin.",
+      "ctaText": "Sezonluk Planlamayı İncele"
+    }
+  },
+  "Home": {
+    "trustedBy": "Sektör lideri perakendeciler ve üreticiler tarafından güvenilmektedir",
+    "ValueChain": {
+      "title": "Bee2 AI'nın tüm perakende değer zincirini nasıl desteklediğini keşfedin",
+      "description": "Talep tahmininden raf bulunurluğuna kadar, entegre modüllerimiz her adımı optimize etmek için birlikte çalışır."
+    }
+  },
+  "About": {
+    "Hero": {
+      "title": "Daha iyi planlayın. Daha çok satın.",
+      "titleAccent": "Daha az israf edin.",
+      "description": "Modern perakende çağı için yapay zeka destekli tahminleme ve envanter planlama. Perakendecilerin ve üreticilerin karlılığı ve sürdürülebilirliği maksimize etmeleri için tedarik zincirlerini optimize etmelerine yardımcı oluyoruz.",
+      "contactUs": "İletişime Geçin",
+      "requestDemo": "Demo İsteyin",
+      "stats": {
+        "waste": "İsraf Azaltıldı",
+        "accuracy": "Tahmin Doğruluğu"
+      }
+    },
+    "Sustainability": {
+      "title": "Bee2 AI, çevresel sürdürülebilirliği desteklerken satışları artırır",
+      "description": "Verimlilik sadece karla ilgili değildir. Kaynakları akıllıca kullanmakla ilgilidir. Teknolojimiz, tam olarak ihtiyaç duyulanı üretmenizi ve sevk etmenizi sağlayarak değer zincirinin her adımında israfı azaltır.",
+      "inventoryReduction": "Envanter Azaltma",
+      "wasteReduction": "İsraf Azaltma",
+      "forecastAccuracy": "Tahmin Doğruluğu"
+    },
+    "Laptop": {
+      "title": "Öngörülen verimli envanter için kredi",
+      "description": "Hakkı teslim ediyoruz. Platformumuz verimlilik kazanımlarını belirler ve optimize edilmiş envanter seviyelerinin finansal etkisini görselleştirmenize yardımcı olur.",
+      "features": {
+        "replenishment": "Otomatik İkmal",
+        "optimization": "Stok Optimizasyonu",
+        "dataDriven": "Veri Odaklı Kararlar"
+      }
+    },
+    "Team": {
+      "title": "Ekibimiz",
+      "description": "Bee2 AI'nın arkasındaki beyinlerle tanışın. Perakendenin geleceğini inşa eden kendini adamış mühendisler ve veri bilimcilerinden oluşan bir ekip.",
+      "roles": {
+        "founder": "Kurucu",
+        "fullstack": "Full Stack Geliştirici",
+        "developer": "Yazılım Geliştirici"
+      }
+    },
+    "Origins": {
+      "title": "Bee2 isminin kökeni",
+      "p1": "Arılar doğanın en verimli organizatörleridir. İnanılmaz bir hassasiyetle iletişim kurar, işbirliği yapar ve kaynaklarını optimize ederler.",
+      "p2": "Şirketimize <strong>Bee2</strong> adını verdik çünkü aynı <strong>kovan zekasını</strong> perakendeye getiriyoruz.",
+      "p3": "Tedarik zincirinizin her parçasını mükemmel bir uyum içinde çalışacak şekilde birbirine bağlıyoruz."
+    },
+    "SustainabilityCircle": {
+      "title": "Bee2 Sürdürülebilirlik",
+      "description": "Karlılık ve sürdürülebilirliğin el ele gittiğine inanıyoruz. Tedarik zincirlerini optimize ederek perakendenin küresel karbon ayak izini azaltmaya yardımcı oluyoruz. Daha az kamyon, daha az atık, daha iyi bir gezegen.",
+      "cta": "Sürdürülebilirlik raporumuzu okuyun"
+    },
+    "FooterCTA": {
+      "title": "Tedarik zincirinizi ve perakende planlamanızı dönüştürmeye hazır mısınız?",
+      "description": "Kararlarını güçlendirmek için Bee2 AI'ya güvenen lider perakendecilere katılın.",
+      "contactUs": "İletişime Geçin",
+      "requestDemo": "Demo İsteyin"
+    }
+  },
+  "Contact": {
+    "title": "İletişime Geçin",
+    "description": "Yapay zeka platformumuz hakkında sorularınız varsa, bir demoya ihtiyacınız varsa veya bir ortaklığı tartışmak istiyorsanız, yardım etmek için buradayız.",
+    "emailUs": "Bize E-posta Gönderin",
+    "emailResponse": "Genellikle 24 saat içinde yanıt veriyoruz.",
+    "phone": "Telefon",
+    "office": "Ofis",
+    "officeAddress": "GEBZE OSB MAH., KEMAL NEHROZOĞLU CADDESİ, DIŞ KAPI NO:507/9 İÇ KAPI NO: Z14\nGEBZE/KOCAELİ\n(Genel Merkez)",
+    "form": {
+      "title": "Bize Mesaj Gönderin",
+      "fullName": "Ad Soyad",
+      "workEmail": "İş E-postası",
+      "company": "Şirket",
+      "message": "Nasıl yardımcı olabiliriz?",
+      "placeholders": {
+        "fullName": "Ahmet Yılmaz",
+        "workEmail": "ahmet@sirket.com",
+        "company": "Şirketiniz A.Ş.",
+        "message": "Tahminleme zorluklarınızdan bahsedin..."
+      },
+      "submit": "Mesaj Gönder",
+      "sending": "Gönderiliyor...",
+      "success": "Mesaj başarıyla gönderildi! En kısa sürede size geri döneceğiz.",
+      "error": "Mesaj gönderilemedi. Lütfen daha sonra tekrar deneyin."
+    }
+  },
+  "Solutions": {
+    "demand-forecasting": {
+      "title": "Talep Tahminleme",
+      "subtitle": "Her Satışı %99 Doğrulukla Tahmin Edin",
+      "description": "Piyasa dalgalanmalarına uyum sağlayan yapay zeka destekli talep tahminleme ile planlamanızı dönüştürün. Motorumuz, SKU düzeyinde talebi hassasiyetle tahmin etmek için mevsimsellikten yerel olaylara kadar binlerce değişkeni analiz eder.",
+      "features": {
+        "0": "SKU/Mağaza Düzeyinde Granülarite",
+        "1": "Günlük, Haftalık ve Aylık Tahminler",
+        "2": "Mevsimsellik ve Trend Analizi",
+        "3": "Yeni Ürün Tanıtımı (NPI) Tahminlemesi",
+        "4": "Yamyamlık (Cannibalization) Tespiti"
+      },
+      "benefits": {
+        "0": { "title": "Stok Tükenmelerini Azaltın", "desc": "Ürünlerin müşteriler istediğinde mevcut olmasını sağlayarak geliri artırın." },
+        "1": { "title": "İsrafı En Aza İndirin", "desc": "Bozulabilir veya hızlı tüketilen ürünlerin gereğinden fazla sipariş edilmesini önleyin." },
+        "2": { "title": "Otomatik Öngörüler", "desc": "Ekibinizin stratejiye odaklanabilmesi için karmaşık hesaplamaları yapay zekaya bırakın." }
+      }
+    },
+    "inventory-planning": {
+      "title": "Uçtan Uca Envanter Planlama",
+      "subtitle": "Maksimum Karlılık İçin Stoku Dengeleyin",
+      "description": "Tüm tedarik zincirinizde mükemmel envanter seviyelerini koruyun. Çözümümüz, işletme sermayesini serbest bırakmak için güvenlik stoklarını, yeniden sipariş noktalarını ve transfer önerilerini hesaplar.",
+      "features": {
+        "0": "Otomatik İkmal",
+        "1": "Güvenlik Stoku Optimizasyonu",
+        "2": "Çok Aşamalı Envanter Optimizasyonu (MEIO)",
+        "3": "ABC/XYZ Segmentasyonu",
+        "4": "Düşük Hareketli Stok Uyarıları"
+      },
+      "benefits": {
+        "0": { "title": "İşletme Sermayesi Verimliliği", "desc": "Fazla envantere bağlı sermayeyi azaltın." },
+        "1": { "title": "Daha Yüksek Hizmet Seviyeleri", "desc": "Deponuzu şişirmeden yüksek bulunabilirliği koruyun." },
+        "2": { "title": "Dinamik Duyarlılık", "desc": "Değişen teslim sürelerine ve talep artışlarına otomatik olarak uyum sağlayın." }
+      }
+    },
+    "pricing-promotion": {
+      "title": "Fiyatlandırma ve Promosyon Tahmini",
+      "subtitle": "Akıllı Fiyatlandırma ile Marjları Optimize Edin",
+      "description": "Hangi indirimlerin işe yaradığını tahmin etmeyi bırakın. Fiyat değişikliklerinin ve promosyon senaryolarının hacim, gelir ve brüt kar marjı üzerindeki etkisini uygulamadan önce simüle edin.",
+      "features": {
+        "0": "Fiyat Elastikiyeti Modellemesi",
+        "1": "Promosyon Artış Tahmini",
+        "2": "İndirim Optimizasyonu",
+        "3": "Senaryo Simülasyonu (What-if Analizi)",
+        "4": "Rakip Fiyat İzleme"
+      },
+      "benefits": {
+        "0": { "title": "ROI'yi Maksimize Edin", "desc": "Sadece gerçek kar getiren promosyonları çalıştırın." },
+        "1": { "title": "Etkili İndirimler", "desc": "Envanteri mümkün olan en iyi fiyat noktasında temizleyin." },
+        "2": { "title": "Stratejik Fiyatlandırma", "desc": "Marka konumlandırmanız ve marj hedeflerinizle uyumlu fiyatlar belirleyin." }
+      }
+    },
+    "seasonal-planning": {
+      "title": "Sezonluk Planlama",
+      "subtitle": "Ciro ve Marjları Maksimize Edin",
+      "description": "Sezonluk, promosyonel veya yaşam döngüsü sonundaki ürünler için tasfiye fırsatlarını belirleyin ve optimal fiyatlandırma oluşturun.",
+      "features": {
+        "0": "Tasfiye Optimizasyonu",
+        "1": "Otomatik İndirimler",
+        "2": "Sezonluk Talep Tahminlemesi",
+        "3": "Envanter Dengeleme",
+        "4": "Marj Koruma"
+      },
+      "benefits": {
+        "0": { "title": "Daha Yüksek Ciro", "desc": "Sezonluk stoku değer kaybetmeden hızlıca elden çıkarın." },
+        "1": { "title": "Optimize Edilmiş Marjlar", "desc": "Marjdan ödün vermeden stoku temizlemek için mükemmel fiyat noktasını bulun." },
+        "2": { "title": "Otomatik Uygulama", "desc": "Yapay zeka destekli fiyat önerileriyle zaman kazanın." }
+      },
+      "hero": {
+        "badge": "Sezonluk planlama çözümü",
+        "title": "Daha yüksek ciro ve daha iyi marjlar için tasfiye fırsatlarını belirleyin",
+        "description": "Sezonluk, promosyonel veya yaşam döngüsü sonundaki ürünler için en uygun fiyatlandırmayı oluşturun. Yapay zekamız, envanteri verimli bir şekilde temizlerken geliri maksimize eder.",
+        "getStarted": "Başlayın",
+        "requestDemo": "Demo İsteyin"
+      },
+      "stats": {
+        "title": "Sezonluk, promosyonel veya yaşam döngüsü sonundaki ürünler için en uygun fiyatlandırmayı oluşturun",
+        "accuracy": { "value": "%100", "label": "Tasfiye Tahmin Doğruluğu" },
+        "reduction": { "value": "%44", "label": "Envanter Azaltma" },
+        "timeSaved": { "value": "%75", "label": "Manuel İşleme Göre Zaman Tasarrufu" }
+      },
+      "optimization": {
+        "title": "\"Stok tükenirken, yaşam döngüsü envanterinin satışını teşvik edin. Marjları ve envanter devir hızını maksimize edin.\"",
+        "description": "Yapay zeka destekli tahminleme, çok erken veya çok geç indirim yapmamanızı sağlar. Maksimum değeri geri kazanmak için tasfiye stratejinizi gerçek talep sinyalleriyle hizalayın.",
+        "learnMore": "Tasfiye Optimizasyonu Hakkında Bilgi Edinin"
+      },
+      "featureHighlight": {
+        "badge": "Temel Özellik",
+        "title": "Bee2 AI, yapay zeka destekli tasfiye optimizasyonu sunar",
+        "dashboardTitle": "Tasfiye Paneli",
+        "automated": { "title": "Otomatik Fiyat Ayarlamaları", "desc": "Sistem, kalan envanter ve sezonda kalan süreye göre fiyat indirimleri önerir." },
+        "margin": { "title": "Marj Koruma", "desc": "Maliyetin altında satış yapmadığınızdan emin olmak için taban fiyatlar belirleyin." },
+        "stock": { "title": "Stok Konsolidasyonu", "desc": "Kalan stoku daha yüksek satış oranına sahip mağazalara taşımak için akıllı öneriler." }
+      },
+      "grid": {
+        "title": "Tasfiye ihtiyaçlarını proaktif olarak belirleyin ve en uygun fiyatları oluşturun",
+        "items": {
+          "0": { "title": "Hızlı, sezgisel kurulum", "desc": "Sezonluk ürünler ve promosyonlar için kuralları kolayca tanımlayın. Kampanyaları günler değil, dakikalar içinde başlatın." },
+          "1": { "title": "Otomatik izle, anında yanıt ver", "desc": "Satış hızının gerçek zamanlı takibi. Bir ürün hareket etmiyorsa, sistem sizi anında uyarır." },
+          "2": { "title": "Çok geç veya çok erken indirimden kaçının", "desc": "Zamanlama her şeydir. Yapay zekamız, maksimum gelir geri kazanımı için en uygun noktayı belirler." },
+          "3": { "title": "Kanallar arası marjları koruyun", "desc": "Kanal çatışmasını önlemek için çevrimiçi ve çevrimdışı kanallar arasında fiyatlandırmayı koordine edin." },
+          "4": { "title": "Uyumluluğu ve yerelleştirilmiş fiyatlandırmayı basitleştirin", "desc": "Bölgesel fiyat farklılıklarını ve vergi kurallarını otomatik olarak yönetin." },
+          "5": { "title": "Yapay zeka destekli stok dengeleme", "desc": "Stoku indirim yapmadan önce en iyi sattığı yere taşıyın." }
+        }
+      },
+      "cta": {
+        "title": "Sezonluk planlamanın kontrolünü elinize alın",
+        "description": "Sezonluk envanterin bir yük haline gelmesine izin vermeyin. Akıllı planlama ve otomatik uygulama ile sezon sonu stokunu nakde çevirin.",
+        "button": "Optimizasyonu Başlat"
+      }
+    }
+  },
+  "DemandForecasting": {
+    "hero": {
+      "badge": "Yapay Zeka Destekli Planlama",
+      "title": "Gelişmiş planlama için <highlight>talebi doğru tahmin edin</highlight>",
+      "titleHighlight": "tahmin edin",
+      "description": "Basit satış geçmişinin ötesine geçin. Yapay zeka motorumuz, müşterilerinizin neyi ne zaman isteyeceğini tahmin etmek için binlerce değişkeni analiz eder.",
+      "getStarted": "Başlayın",
+      "learnMore": "Daha Fazla Bilgi",
+      "accuracy": { "value": "%99", "label": "Tahmin Doğruluğu", "status": "Başarıldı" }
+    },
+    "stats": {
+      "title": "Somut sonuçlar için tahmin doğruluğunu artırın",
+      "accuracy": { "value": "%77", "label": "Artan Tahmin Doğruluğu" },
+      "stockOuts": { "value": "%30", "label": "Stok Tükenmesinde Azalma" },
+      "spoilage": { "value": "%40", "label": "Fire Azalması" }
+    },
+    "dashboard": {
+      "title": "Bee2 AI, tüketici talebine ayrıntılı görünürlük sağlar",
+      "description": "Silolar halinde optimize etmekten vazgeçin. Birleşik platformumuz, talep algılama, envanter planlama ve ikmali tek bir gerçeklik kaynağında birleştirir.",
+      "features": {
+        "0": "Günlük SKU-mağaza düzeyinde tahminleme",
+        "1": "Etkinlik ve promosyon etki analizi",
+        "2": "Hava durumu ve yerel etkinlik korelasyonu"
+      }
+    },
+    "smarterPlanning": {
+      "title": "Daha akıllı talep planlama",
+      "subtitle": "Rutin görevleri otomatikleştirin ve planlamacılarınızın stratejiye odaklanmasını sağlayın.",
+      "cards": {
+        "pattern": { "title": "Desen Tanıma", "desc": "Mevsimsel ani artışlardan promosyonlar sırasındaki yamyamlaşma etkilerine kadar karmaşık talep desenlerini otomatik olarak belirleyin." },
+        "probabilistic": { "title": "Olasılıksal Tahminleme", "desc": "Sadece bir sayı almayın. Riski anlamak ve daha iyi envanter kararları vermek için bir olasılık aralığı elde edin." },
+        "anomaly": { "title": "Anomali Tespiti", "desc": "Yapay zekamız anomalileri gerçek zamanlı olarak işaretler, böylece tedarik kesintilerine veya talep artışlarına anında tepki verebilirsiniz." }
+      }
+    },
+    "cta": {
+      "title": "Tedarik zincirinizi bugünden geleceğe hazırlayın",
+      "description": "Bee2 AI ile stok tükenmelerini %30 azaltan ve satışlarını artıran önde gelen perakendecilere katılın.",
+      "bookDemo": "Demo İsteyin",
+      "explore": "Diğer Çözümleri Keşfedin"
+    }
+  },
+  "PricingPromotion": {
+    "hero": {
+      "title": "Fiyat hassasiyetini artırın ve fiyatlandırma stratejisini optimize edin",
+      "description": "Veri odaklı fiyatlandırmanın gücünü açığa çıkarın. Yapay zekamız, müşterileri mutlu ederken marjları maksimize etmek için her ürün için en uygun fiyat noktasını belirlemenize yardımcı olur.",
+      "getStarted": "Başlayın",
+      "viewVideo": "Videoyu İzle"
+    },
+    "metrics": {
+      "title": "Satışları, kârı veya hacmi maksimize etmek için fiyatlandırma süreçlerini basitleştirin",
+      "cards": {
+        "0": { "title": "Artırın", "desc": "Kâr Marjları" },
+        "1": { "title": "Büyütün", "desc": "Pazar Payı" },
+        "2": { "title": "İyileştirin", "desc": "Fiyat Algısı" }
+      }
+    },
+    "precision": {
+      "title": "Bee2 AI, hassas ve bilinçli fiyatlandırma kararları oluşturur",
+      "description": "Algoritmalarımız, mükemmel fiyatı önermek için geçmiş verileri, rakip fiyatlarını ve talep esnekliğini analiz eder. Tahmin etmeyi bırakın ve bilimsel hassasiyetle optimize etmeye başlayın."
+    },
+    "pricingImage": {
+      "badge": "Temel Özellik",
+      "title": "Müşterilerin arzuladığı fiyat imajını zahmetsizce şekillendirin",
+      "description": "Marjları aşındırmadan rekabet avantajınızı koruyun. Markanızın fiyatlandırma stratejisini belirleyin (premium, rekabetçi veya indirimli) ve uygulamayı yapay zekaya bırakın."
+    },
+    "marketLeadership": {
+      "title": "Pazar liderliğine ulaşmak için perakende fiyatlandırmasını iyileştirin",
+      "description": "Kategorinizin kontrolünü elinize alın. Pazar değişikliklerine rakiplerinizden daha hızlı yanıt verin.",
+      "tags": {
+        "base": "Taban Fiyat",
+        "promo": "Promosyonlar",
+        "markdowns": "İndirimler"
+      }
+    },
+    "quote": {
+      "text": "\"Ekibinizin fiyatlandırma dehasına katkıda bulunun\"",
+      "subtext": "Fiyatlandırma analistlerinizi, rutini otomatikleştiren ve stratejiyi ortaya çıkaran araçlarla güçlendirin. Verileri kârlı eyleme dönüştürmek hiç bu kadar kolay olmamıştı."
+    },
+    "value": {
+      "badge": "-%15",
+      "title": "Fiyat doğru, ama ne pahasına?",
+      "description": "Rakipleri körü körüne eşleştirmek veya fiyatları düşürmek değeri yok eder. Bütünsel yaklaşımımız, her fiyat hareketinin kâr hanenize katkıda bulunmasını sağlamak için maliyetleri, talebi ve ürünler arası etkileri dikkate alır.",
+      "learnMore": "Gerçek Maliyeti Öğrenin"
+    },
+    "cta": {
+      "title": "Gerçekten işe yarayan makine öğrenimi ile oluşturulan kör noktaların ötesini görün",
+      "bookDemo": "Demo İsteyin"
+    }
+  },
+  "InventoryPlanning": {
+    "hero": {
+      "badge": "Uçtan Uca Envanter Planlama",
+      "title": "Tedarik zincirinin <highlight>tamamında</highlight> envanteri optimize edin",
+      "description": "Stok tükenmelerini ve fireyi en aza indirirken yüksek bulunabilirlik sağlayın. Birleşik platformumuz, fabrikadan rafa kadar stok seviyelerini dengeler.",
+      "getStarted": "Başlayın",
+      "systemOptimized": "Sistem Optimize Edildi"
+    },
+    "stats": {
+      "title": "Stok bulunabilirliğini ve devir hızını artırın",
+      "reduction": { "value": "%30", "label": "Envanter Azaltma" },
+      "availability": { "value": "%87", "label": "Bulunabilirlik" },
+      "spoilage": { "value": "%85", "label": "Daha Az Taze Gıda Firesi" }
+    },
+    "flow": {
+      "title": "Envanter akışlarını tüm ağ boyunca optimize edin",
+      "description": "Tedarik zincirinizdeki her düğümü bağlayın. Depolardan dağıtım merkezlerine ve mağazalara kadar, yapay zekamız her yerde optimum stok seviyelerini sağlar.",
+      "list": {
+        "0": "Çok kademeli envanter optimizasyonu",
+        "1": "Dinamik güvenlik stoku hesaplamaları",
+        "2": "Otomatik ikmal tetikleyicileri"
+      }
+    },
+    "dashboard": {
+      "title": "Envanteri otomatik olarak yönetin",
+      "features": {
+        "0": { "title": "İkmal", "desc": "Doğru talep tahminlerine dayalı olarak sipariş tekliflerini otomatikleştirin." },
+        "1": { "title": "Tahsisler", "desc": "Kıtlığı dağıtın veya promosyonları etkili bir şekilde itin." },
+        "2": { "title": "Transferler", "desc": "Eskimeyi ve stok tükenmelerini önlemek için mağazalar arasında stoku dengeleyin." }
+      }
+    },
+    "produce": {
+      "label": "Atığı Azaltın",
+      "title": "Market Gıda İsrafının Gerçek Nedeni: Tazeliği Doğrulamak Daha İyi Mağazalarla Başlar",
+      "description": "Taze gıda zordur. Bozulma belirgindir. Taze ürünler için yüksek bulunabilirliği korurken israfı en aza indirin.",
+      "caseStudy": "Vaka Çalışmasını İnceleyin"
+    },
+    "cta": {
+      "title": "Tedarik zincirizi ve perakende planlamanızı dönüştürmeye hazır mısınız?",
+      "talk": "Konuşalım",
+      "requestDemo": "Demo İsteyin"
+    }
+  }
+}

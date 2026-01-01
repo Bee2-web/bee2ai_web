@@ -1,13 +1,15 @@
 "use client"
 
 import { useState, useRef, useEffect } from "react"
-import Link from 'next/link';
+import { Link } from '@/i18n/routing'; // Use i18n Link
 import Image from 'next/image';
 import { navItems } from '@/data/siteContent';
 import { ChevronDown, Search, Menu, X } from "lucide-react";
 import LanguagePicker from '@/components/LanguagePicker';
+import { useTranslations } from 'next-intl';
 
 export default function Header() {
+  const t = useTranslations('Header');
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
   const [hoverStyle, setHoverStyle] = useState({})
   const tabRefs = useRef<(HTMLLIElement | null)[]>([])
@@ -68,11 +70,11 @@ export default function Header() {
                                         href={item.href}
                                         className="flex items-center gap-1.5 text-[15px] font-medium text-slate-600 group-hover:text-slate-900 transition-colors"
                                     >
-                                        {item.label}
+                                        {t(item.label)}
                                     </Link>
                                 ) : (
                                     <div className="flex items-center gap-1.5 text-[15px] font-medium text-slate-600 group-hover:text-slate-900 transition-colors">
-                                        {item.label}
+                                        {t(item.label)}
                                         {(item.dropdown || item.sections) && (
                                             <ChevronDown className="w-4 h-4 text-slate-400 group-hover:text-slate-600 transition-transform group-hover:rotate-180" />
                                         )}
@@ -143,7 +145,7 @@ export default function Header() {
                     href='/contact'
                     className='hidden md:inline-flex h-9 items-center justify-center rounded-full bg-[#05152F] px-5 text-sm font-medium text-white shadow-sm hover:bg-[#05152F]/90 transition-all ml-2'
                 >
-                    Get Started
+                    {t('getStarted')}
                 </Link>
                 {/* Mobile Menu Button */}
                 <button
