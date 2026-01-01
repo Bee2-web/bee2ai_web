@@ -1,0 +1,211 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F9FAFB;
+  --foreground: #05152F;
+  --navy: #05152F;
+  --steel-blue: #6388A8;
+  --light-blue: #EAF4F9;
+  --honey-yellow: #FDB955;
+  --border-color: #E5E7EB;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-navy: var(--navy);
+  --color-steel-blue: var(--steel-blue);
+  --color-light-blue: var(--light-blue);
+  --color-honey-yellow: var(--honey-yellow);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-figtree), var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+
+.curved-mask-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  mask-image: url(/curved-border.svg);
+  mask-repeat: no-repeat;
+  mask-size: cover;
+  mask-position: center bottom;
+  transform: rotate(180deg);
+  pointer-events: none;
+  z-index: 1;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes float-delayed {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+}
+
+@keyframes float-reverse {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(10px); }
+}
+
+.animate-float-slow {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-medium {
+  animation: float-delayed 5s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+.animate-float-fast {
+  animation: float-reverse 7s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+
+@supports (-webkit-mask-image: url()) {
+  .curved-mask-bottom {
+    -webkit-mask-image: url(/curved-border.svg);
+    mask-image: url(/curved-border.svg);
+  }
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.1s ease-in-out;
+}
+
+/* Card breathing animation - blue glow effect */
+@keyframes cardBreath {
+  0% {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+
+  4.17% {
+    box-shadow: 0 0 20px 5px rgba(59, 130, 246, 0.3), 0 0 10px 2px rgba(59, 130, 246, 0.2);
+  }
+
+  8.33% {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+
+  100% {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+}
+
+/* Arrow pulse animation - scale and background color change */
+@keyframes arrowPulse {
+  0% {
+    transform: scale(1);
+    background-color: white;
+
+  }
+
+  4.17% {
+    transform: scale(1.2);
+    background-color: rgb(132, 177, 250);
+    color: var(--navy);
+  }
+
+  8.33% {
+    transform: scale(1);
+    background-color: white;
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: white;
+  }
+}
+
+/* Card animation classes with sequential delays */
+.card-animate-0 {
+  animation: cardBreath 18s ease-in-out infinite;
+  animation-delay: 0s;
+}
+
+.card-animate-1 {
+  animation: cardBreath 18s ease-in-out infinite;
+  animation-delay: 4s;
+}
+
+.card-animate-2 {
+  animation: cardBreath 18s ease-in-out infinite;
+  animation-delay: 8s;
+}
+
+.card-animate-3 {
+  animation: cardBreath 18s ease-in-out infinite;
+  animation-delay: 12s;
+}
+
+.card-animate-4 {
+  animation: cardBreath 18s ease-in-out infinite;
+  animation-delay: 16s;
+}
+
+/* Arrow animation classes with sequential delays (offset between cards) */
+.arrow-animate-0 {
+  animation: arrowPulse 18s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+.arrow-animate-1 {
+  animation: arrowPulse 18s ease-in-out infinite;
+  animation-delay: 6s;
+}
+
+.arrow-animate-2 {
+  animation: arrowPulse 18s ease-in-out infinite;
+  animation-delay: 10s;
+}
+
+.arrow-animate-3 {
+  animation: arrowPulse 18s ease-in-out infinite;
+  animation-delay: 14s;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-33.333%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
