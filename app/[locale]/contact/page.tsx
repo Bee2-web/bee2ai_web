@@ -77,8 +77,8 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-bold text-[#05152F] text-lg">{t('emailUs')}</h3>
                   <p className="text-[#05152F]/70">{t('emailResponse')}</p>
-                  <a href="mailto:info@bee2ai.com" className="text-[#6388A8] font-medium hover:underline text-lg">
-                    info@bee2ai.com
+                  <a href="mailto:murat@bee2.ai" className="text-[#6388A8] font-medium hover:underline text-lg">
+                    murat@bee2.ai
                   </a>
                 </div>
               </div>
