@@ -127,7 +127,7 @@ export default function ContactPage() {
                     id="name"
                     name="name"
                     required
-                    className="w-full h-12 px-4 rounded-xl border border-slate-200 focus:border-[#6388A8] focus:ring-2 focus:ring-[#6388A8]/20 outline-none transition-all placeholder:text-gray-400"
+                    className="w-full h-12 px-4 rounded-xl border border-slate-200 focus:border-[#6388A8] focus:ring-2 focus:ring-[#6388A8]/20 outline-none transition-all placeholder:text-gray-400 text-[#05152F] font-medium"
                     placeholder={t('form.placeholders.fullName')}
                   />
                 </div>
@@ -138,7 +138,7 @@ export default function ContactPage() {
                     id="email"
                     name="email"
                     required
-                    className="w-full h-12 px-4 rounded-xl border border-slate-200 focus:border-[#6388A8] focus:ring-2 focus:ring-[#6388A8]/20 outline-none transition-all placeholder:text-gray-400"
+                    className="w-full h-12 px-4 rounded-xl border border-slate-200 focus:border-[#6388A8] focus:ring-2 focus:ring-[#6388A8]/20 outline-none transition-all placeholder:text-gray-400 text-[#05152F] font-medium"
                     placeholder={t('form.placeholders.workEmail')}
                   />
                 </div>
@@ -150,7 +150,7 @@ export default function ContactPage() {
                   type="text" 
                   id="company"
                   name="company"
-                  className="w-full h-12 px-4 rounded-xl border border-slate-200 focus:border-[#6388A8] focus:ring-2 focus:ring-[#6388A8]/20 outline-none transition-all placeholder:text-gray-400"
+                  className="w-full h-12 px-4 rounded-xl border border-slate-200 focus:border-[#6388A8] focus:ring-2 focus:ring-[#6388A8]/20 outline-none transition-all placeholder:text-gray-400 text-[#05152F] font-medium"
                   placeholder={t('form.placeholders.company')}
                 />
               </div>
@@ -161,7 +161,7 @@ export default function ContactPage() {
                   id="message"
                   name="message"
                   required
-                  className="w-full h-32 p-4 rounded-xl border border-slate-200 focus:border-[#6388A8] focus:ring-2 focus:ring-[#6388A8]/20 outline-none transition-all resize-none placeholder:text-gray-400"
+                  className="w-full h-32 p-4 rounded-xl border border-slate-200 focus:border-[#6388A8] focus:ring-2 focus:ring-[#6388A8]/20 outline-none transition-all resize-none placeholder:text-gray-400 text-[#05152F] font-medium"
                   placeholder={t('form.placeholders.message')}
                 />
               </div>
