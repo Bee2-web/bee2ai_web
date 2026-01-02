@@ -4,6 +4,8 @@ import React from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
+import Lottie from 'lottie-react';
+import animationData from '@/components/lotties/data-animation.json';
 
 export default function AboutPage() {
   const t = useTranslations('About');
@@ -144,23 +146,8 @@ export default function AboutPage() {
               </div>
               <div className="relative">
                    {/* Laptop Placeholder */}
-                   <div className="w-full aspect-[16/10] bg-white rounded-xl shadow-2xl border-4 border-slate-200 flex items-center justify-center p-8 relative overflow-hidden">
-                        <div className="absolute inset-x-0 bottom-0 h-8 bg-slate-100 border-t border-slate-200" /> {/* Keyboard area */}
-                        <div className="w-full h-full bg-[#05152F] rounded text-white p-6 overflow-hidden">
-                             {/* Mock UI */}
-                             <div className="flex justify-between items-center mb-8">
-                                 <div className="w-20 h-4 bg-white/20 rounded" />
-                                 <div className="flex gap-2">
-                                     <div className="w-8 h-8 rounded-full bg-white/20" />
-                                     <div className="w-8 h-8 rounded-full bg-blue-500" />
-                                 </div>
-                             </div>
-                             <div className="grid grid-cols-3 gap-4">
-                                 <div className="h-24 bg-white/10 rounded" />
-                                 <div className="h-24 bg-white/10 rounded" />
-                                 <div className="h-24 bg-white/10 rounded" />
-                             </div>
-                        </div>
+                   <div className="w-full aspect-[16/10] bg-white rounded-xl shadow-2xl border-4 border-slate-200 flex items-center justify-center p-2 relative overflow-hidden">
+                        <Lottie animationData={animationData} loop={true} className="w-full h-full" />
                    </div>
               </div>
           </div>

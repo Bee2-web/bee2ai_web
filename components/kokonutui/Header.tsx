@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react"
 import { Link } from '@/i18n/routing'; // Use i18n Link
 import Image from 'next/image';
 import { navItems } from '@/data/siteContent';
-import { ChevronDown, Search, Menu, X } from "lucide-react";
+import { ChevronDown, Menu, X } from "lucide-react";
 import LanguagePicker from '@/components/LanguagePicker';
 import { useTranslations } from 'next-intl';
 
@@ -134,14 +134,8 @@ export default function Header() {
             <div className='flex items-center gap-2'>
                 <LanguagePicker className="hidden lg:flex scale-90 origin-right" />
                 
-                <button
-                    className='p-2 text-slate-500 hover:text-slate-900 transition-colors'
-                    aria-label='Search'
-                >
-                    <Search className="w-5 h-5" />
-                </button>
-
-                 <Link
+                
+                <Link
                     href='/contact'
                     className='hidden md:inline-flex h-9 items-center justify-center rounded-full bg-[#05152F] px-5 text-sm font-medium text-white shadow-sm hover:bg-[#05152F]/90 transition-all ml-2'
                 >
