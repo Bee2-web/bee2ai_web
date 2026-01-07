@@ -4,6 +4,10 @@ import React from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
+import dynamic from 'next/dynamic';
+
+const Lottie = dynamic(() => import('lottie-react'), { ssr: false });
+import merchAnimation from '@/public/lottie/Merch Stores - Imprint Genius.json';
 
 export default function InventoryPlanningPage() {
   const t = useTranslations('InventoryPlanning');
@@ -41,22 +45,12 @@ export default function InventoryPlanningPage() {
              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-[#EAF4F9] rounded-full opacity-60 blur-3xl -z-10" />
              <div className="relative bg-white rounded-[2rem] overflow-hidden shadow-2xl border border-slate-100 transform rotate-2 hover:rotate-0 transition-transform duration-500">
                 {/* Placeholder for worker image */}
-                <div className="w-full h-[400px] bg-slate-100 flex items-center justify-center relative">
-                   <Image 
-                        src="/vectors/8.svg" 
-                        alt="Inventory System" 
-                        width={600} 
-                        height={400} 
-                        className="w-full h-full object-cover opacity-80" 
+                <div className="w-full h-[400px] bg-white flex items-center justify-center relative p-8">
+                   <Lottie 
+                        animationData={merchAnimation} 
+                        loop={true} 
+                        className="w-full h-full"
                    />
-                   <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="bg-white/90 backdrop-blur-sm p-4 rounded-xl shadow-lg border border-slate-200">
-                          <div className="flex items-center gap-3">
-                              <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse" />
-                              <span className="font-bold text-[#05152F]">{t('hero.systemOptimized')}</span>
-                          </div>
-                      </div>
-                   </div>
                 </div>
              </div>
         </div>

@@ -4,8 +4,11 @@ import React from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import Lottie from 'lottie-react';
+import dynamic from 'next/dynamic';
+
+const Lottie = dynamic(() => import('lottie-react'), { ssr: false });
 import animationData from '@/components/lotties/data-animation.json';
+import connectionAnimation from '@/public/lottie/E-commerce connection.json';
 
 export default function AboutPage() {
   const t = useTranslations('About');
@@ -187,9 +190,9 @@ export default function AboutPage() {
                          <p className="text-slate-500 text-sm font-medium mb-4">{member.role}</p>
                                                   {/* LinkedIn Icon */}
                           {member.linkedin ? (
-                              <Link href={member.linkedin} target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded bg-slate-100 flex items-center justify-center text-slate-400 hover:bg-blue-100 hover:text-blue-600 transition-colors cursor-pointer">
+                              <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded bg-slate-100 flex items-center justify-center text-slate-400 hover:bg-blue-100 hover:text-blue-600 transition-colors cursor-pointer">
                                   <span className="font-bold text-xs">in</span>
-                              </Link>
+                              </a>
                           ) : (
                                <div className="w-8 h-8 rounded bg-slate-100 flex items-center justify-center text-slate-300 cursor-not-allowed" title="No LinkedIn profile available">
                                   <span className="font-bold text-xs">in</span>
