@@ -4,6 +4,10 @@ import React from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
+import dynamic from 'next/dynamic';
+
+const Lottie = dynamic(() => import('lottie-react'), { ssr: false });
+import connectionAnimation from '@/public/lottie/E-commerce connection.json';
 
 export default function PricingPromotionPage() {
   const t = useTranslations('PricingPromotion');
@@ -27,26 +31,21 @@ export default function PricingPromotionPage() {
                >
                    {t('hero.getStarted')}
                </Link>
-               <Link
-                    href="/contact"
-                    className="px-8 py-4 rounded-full bg-white text-[#0077B6] border-2 border-[#0077B6] font-bold hover:bg-blue-50 transition-colors"
-               >
-                   {t('hero.viewVideo')}
-               </Link>
+
             </div>
         </div>
         <div className="relative flex justify-center items-center">
             {/* Organic shape background */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-blue-50 rounded-full opacity-70 blur-3xl -z-10" />
-            <div className="relative z-10 w-full max-w-md aspect-square rounded-full overflow-hidden border-8 border-white shadow-2xl">
-                 <Image
-                    src="/vectors/4.svg"
-                    alt="Pricing Strategy"
-                    width={500}
-                    height={500}
-                    className="w-full h-full object-cover"
-                 />
-            </div>
+                <div className="relative z-10 w-full max-w-md aspect-square rounded-full overflow-hidden border-8 border-white shadow-2xl bg-blue-50/50">
+                     <div className="absolute inset-0 flex items-center justify-center p-8">
+                         <Lottie 
+                             animationData={connectionAnimation} 
+                             loop={true} 
+                             className="w-full h-full"
+                         />
+                     </div>
+                </div>
         </div>
       </section>
 

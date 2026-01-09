@@ -35,12 +35,12 @@ export default function DemandForecastingPage() {
             >
               {t('hero.getStarted')}
             </Link>
-             <Link
+             <a 
               href="#features"
               className="inline-flex items-center justify-center h-12 px-8 rounded-full border-2 border-[#EAF4F9] text-[#05152F] font-bold hover:bg-[#EAF4F9] transition-colors"
             >
               {t('hero.learnMore')}
-            </Link>
+            </a>
           </div>
         </div>
 

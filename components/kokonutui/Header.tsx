@@ -1,7 +1,8 @@
+
 "use client"
 
 import { useState, useRef, useEffect } from "react"
-import { Link } from '@/i18n/routing'; // Use i18n Link
+import { Link, usePathname, AppPath } from '@/i18n/routing'; // Use i18n Link
 import Image from 'next/image';
 import { navItems } from '@/data/siteContent';
 import { ChevronDown, Menu, X } from "lucide-react";
@@ -67,7 +68,7 @@ export default function Header() {
                             >
                                 {item.href ? (
                                     <Link 
-                                        href={item.href}
+                                        href={item.href as AppPath}
                                         className="flex items-center gap-1.5 text-[15px] font-medium text-slate-600 group-hover:text-slate-900 transition-colors"
                                     >
                                         {t(item.label)}
@@ -88,7 +89,7 @@ export default function Header() {
                                         {item.dropdown.map((subItem) => (
                                             <li key={subItem.label}>
                                                 <Link
-                                                    href={subItem.href}
+                                                    href={subItem.href as AppPath}
                                                     className='block px-3 py-2 text-sm text-slate-600 hover:text-slate-900 hover:bg-gray-50 rounded-lg transition-colors'
                                                 >
                                                     {subItem.label}
@@ -111,7 +112,7 @@ export default function Header() {
                                                     {section.items.map((subItem) => (
                                                     <li key={subItem.label}>
                                                         <Link
-                                                            href={subItem.href}
+                                                            href={subItem.href as AppPath}
                                                             className='text-sm text-slate-500 hover:text-blue-600 transition-colors block'
                                                         >
                                                             {subItem.label}
@@ -158,7 +159,7 @@ export default function Header() {
              {navItems.map((item) => (
                  <div key={item.label} className="py-2 border-b border-gray-50 last:border-0">
                       {item.href ? (
-                          <Link href={item.href} className="font-medium text-slate-900 block mb-2" onClick={() => setIsMobileMenuOpen(false)}>
+                          <Link href={item.href as AppPath} className="font-medium text-slate-900 block mb-2" onClick={() => setIsMobileMenuOpen(false)}>
                               {item.label}
                           </Link>
                       ) : (
@@ -168,7 +169,7 @@ export default function Header() {
                      {(item.dropdown || (item.sections?.flatMap(s => s.items))) && (
                          <div className="pl-4 space-y-2">
                              {(item.dropdown || item.sections?.flatMap(s => s.items))?.map(sub => (
-                                 <Link key={sub.label} href={sub.href} className="block text-sm text-slate-500" onClick={() => setIsMobileMenuOpen(false)}>
+                                 <Link key={sub.label} href={sub.href as AppPath} className="block text-sm text-slate-500" onClick={() => setIsMobileMenuOpen(false)}>
                                      {sub.label}
                                  </Link>
                              ))}
