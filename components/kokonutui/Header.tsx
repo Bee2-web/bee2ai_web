@@ -155,15 +155,15 @@ export default function Header() {
 
        {/* Mobile Menu Overlay */}
       {isMobileMenuOpen && (
-        <div className="absolute top-20 left-0 w-full bg-white border-b border-gray-100 p-4 shadow-lg xl:hidden flex flex-col gap-4">
+        <div className="absolute top-20 left-0 w-full bg-white border-b border-gray-100 p-4 shadow-lg xl:hidden flex flex-col gap-4 max-h-[calc(100vh-80px)] overflow-y-auto">
              {navItems.map((item) => (
                  <div key={item.label} className="py-2 border-b border-gray-50 last:border-0">
                       {item.href ? (
                           <Link href={item.href as AppPath} className="font-medium text-slate-900 block mb-2" onClick={() => setIsMobileMenuOpen(false)}>
-                              {item.label}
+                              {t(item.label)}
                           </Link>
                       ) : (
-                          <span className="font-medium text-slate-900 block mb-2">{item.label}</span>
+                          <span className="font-medium text-slate-900 block mb-2">{t(item.label)}</span>
                       )}
 
                      {(item.dropdown || (item.sections?.flatMap(s => s.items))) && (
@@ -177,6 +177,21 @@ export default function Header() {
                      )}
                  </div>
              ))}
+             
+             <div className="pt-4 border-t border-gray-100 flex flex-col gap-4">
+                <div className="flex items-center justify-between">
+                    <span className="text-sm font-medium text-slate-600">Dil / Language:</span>
+                    <LanguagePicker />
+                </div>
+                
+                <Link
+                    href='/contact'
+                    className='flex h-10 items-center justify-center rounded-full bg-[#05152F] px-5 text-sm font-medium text-white shadow-sm hover:bg-[#05152F]/90 transition-all'
+                    onClick={() => setIsMobileMenuOpen(false)}
+                >
+                    {t('getStarted')}
+                </Link>
+             </div>
         </div>
       )}
     </header>
