@@ -374,5 +374,15 @@
       "talk": "Let's Talk",
       "requestDemo": "Request Demo"
     }
+  },
+  "ChatWidget": {
+    "buttonText": "Ask BeeAI",
+    "title": "BeeAI Assistant",
+    "status": "Online",
+    "welcomeMessage": "Hello! I'm BeeAI. How can I help you?",
+    "inputPlaceholder": "Ask BeeAI something...",
+    "errorGeneral": "An error occurred, please try again.",
+    "errorConnection": "Sorry, there is a connection issue right now. Please try again later.",
+    "demoResponse": "This is a demo response. Actual responses will be available once the backend connection is fully established."
   }
 }
