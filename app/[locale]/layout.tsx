@@ -5,6 +5,7 @@ import { siteMeta } from '@/data/siteContent';
 
 import PageDecorations from '@/components/PageDecorations';
 import Header from '@/components/kokonutui/Header';
+import AiChatWidget from '@/components/AiChatWidget';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -58,6 +59,7 @@ export default async function RootLayout({
           <PageDecorations />
           <Header />
             {children}
+          <AiChatWidget />
         </NextIntlClientProvider>
       </body>
     </html>

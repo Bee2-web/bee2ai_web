@@ -374,5 +374,15 @@
       "talk": "لنتحدث",
       "requestDemo": "طلب عرض توضيحي"
     }
+  },
+  "ChatWidget": {
+    "buttonText": "اسأل BeeAI",
+    "title": "مساعد BeeAI",
+    "status": "متصل",
+    "welcomeMessage": "مرحبًا! أنا BeeAI. كيف يمكنني مساعدتك؟",
+    "inputPlaceholder": "اسأل BeeAI شيئًا...",
+    "errorGeneral": "حدث خطأ، يرجى المحاولة مرة أخرى.",
+    "errorConnection": "عذراً، هناك مشكلة في الاتصال حالياً. يرجى المحاولة لاحقاً.",
+    "demoResponse": "هذا رد تجريبي. ستكون الردود الحقيقية متاحة بمجرد إنشاء الاتصال بالخلفية بشكل كامل."
   }
 }

@@ -374,5 +374,14 @@
       "talk": "Konuşalım",
       "requestDemo": "Demo İsteyin"
     }
+  },
+  "ChatWidget": {
+    "buttonText": "BeeAI'a sorun",
+    "title": "BeeAI Asistan",
+    "status": "Çevrimiçi",
+    "welcomeMessage": "Merhaba! Ben BeeAI. Size nasıl yardımcı olabilirim?",
+    "inputPlaceholder": "BeeAI'a bir şeyler sorun...",
+    "errorGeneral": "Bir hata oluştu, lütfen tekrar deneyin.",
+    "errorConnection": "Üzgünüm, şu an bağlantıda bir sorun var. Lütfen daha sonra tekrar deneyin."
   }
 }
